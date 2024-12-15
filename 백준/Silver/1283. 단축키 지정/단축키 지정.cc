@@ -24,7 +24,7 @@ int main() {
                 option.insert(idx + 2, "]");
                 check = 1;
             }
-            // 다음 단어 위치 찾기기
+            // 다음 단어 위치 찾기
             idx = option.find(" ", idx);
             if(idx == string::npos) break;
             idx++;
